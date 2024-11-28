@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jan Zachary Capili</title>
+    <link rel="icon" href=
+    "https://www.pngarts.com/files/2/Letter-Z-PNG-Image-Transparent.png"
+            type="image/x-icon" />
+        
+    <style>
+        
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0f0f;
+            color: #fff;
+            line-height: 1.6;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: #1e1e1e;
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 40px;
+            box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        nav a {
+            display: block;
+            padding: 15px 25px;
+            color: #bbb;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #d32f2f;
+            color: #fff;
+        }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 40px;
+            width: 100%;
+            background-color: #121212;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+
+        header {
+    background: linear-gradient(45deg, #c2185b, #b71c1c, #d32f2f);
+    animation: gradientAnimation 5s ease infinite;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    margin-left: 10px; 
+    margin-right: 40px; 
+    border-radius: 10px;
+}
+
+        h1 {
+            font-size: 3.5em;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        h1 span {
+            color: #f44336;
+            text-shadow: 0 0 10px #f44336, 0 0 20px #f44336, 0 0 30px #f44336;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #f5f5f5;
+            margin-top: 10px;
+            animation: fadeIn 2s ease-out forwards;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #121212;
+            border-radius: 8px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        #hobbies .hobby-box {
+            background-color: #1f1f1f;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        #hobbies .hobby-box:hover {
+            background-color: #f44336;
+            transform: translateY(-5px);
+        }
+
+        #hobbies h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #f5f5f5;
+        }
+
+        #hobbies p {
+            font-size: 1.2em;
+            color: #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+            nav {
+                width: 200px;
+                padding-top: 20px;
+            }
+            header {
+                padding: 60px 20px;
+            }
+            #hobbies .hobby-box {
+                margin: 10px 0;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <center><img src="Zlogo.png" alt="Logo" width="75" height="75"></center>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+		<a href="#Education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <header>
+            <h1><span>Jan Zachary Capili</span></h1>
+            <p>A STUDENT AND A WARRIOR</p>
+        </header>
+
+        <div id="about" class="container">
+            <h2>About Me</h2>
+            <p>Who is Zachary?</p>
+            <img src="pic1.jpg" alt="Zachary" width="300" height="300">
+            <p>Zachary is an eighteen year old freshmen who believes that without hardwork, dreams would stay as a dream. Zachary lives in caloocan and is studying for his dream to be successful and the first step is to finish his course. Zachary is the eldest among three siblings. Zachary aims to become the provider for his family and in time, retire his parents and build a house for them.</p>
+        </div>
+
+        <div id="hobbies" class="container">
+            <h2>My Hobbies</h2>
+
+            <div class="hobby-box">
+                <h3>Coding & Web Development</h3>
+                <p>Coding was a hobby for me when I was in high school. I've come to love coding as it's fun and could help the future because of the growing manmade technology. It has become a dream of me to be a cyberpolice whom hacks the hackers to prevent more cyberattacks.</p>
+            </div>
+
+            <div class="hobby-box">
+                <h3>Photography</h3>
+                <p>Photography is another hobby that is not high maintenance and a hobby that could be carried around. With a click of a shutter, you will have a time capsule in the future and a memory in a picture.</p>
+            </div>
+
+            <div class="hobby-box">
+                <h3>Playing</h3>
+                <p>Playing has always been a part of everyone's childhood. Wether it's physical play or graphic gaming. It has became a way for me to relax and enjoy my free time.</p>
+            </div>
+
+            <div class="hobby-box">
+                <h3>Making and listening to music</h3>
+                <p>Music has became my way to unwind and forget all my worries for a moment. I believe that all music are beautiful as long as it's made with heart and imagination. Making music makes me feel relaxed as I feel the creases of the strings while playing and the beauty of what pretty melodic abilities a human can posses.</p>
+            </div>
+        </div>
+		<div>
+		<div id="Education" class="container">
+		<h2>Education</h2>
+		<p>I am currently a freshman studying the Information Technology course at Univesity of the East Caloocan (UE-Cal). This website is intended for the final project of Mr. Mar Eli Sagsagat in line with the "Introduction to programming" course.</p><p>My previous schools were: </p> 
+        <p><li>Infant Jesus Learning Center (Nursery)</p></li>
+        <li><a href="https://mcu.edu.ph/" target="_blank" style="color: #e91e63;"> Manila Central University (Kinder-Grade 8)</a></li>
+            <img src="manila-central-university.png" alt="MCU" width="100" height="100">
+        <li><a href="https://www.facebook.com/BBNHSOfficial/?locale=tl_PH" target="_blank" style="color: #e91e63;">Bagong Barrio National Highschool (Grade 9-10)</a></li>
+            <img src="bbnhs.jfif" alt="BBNHS" width="100" height="100">
+        <li><a href="http://www.aclc.edu.ph/" target="_blank" style="color: #e91e63;">ACLC Colleges (SHS)</a></li>
+             <img src="ACLC.png" alt="ACLC" width="100" height="100">
+        </div>
+
+        <div id="contact" class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me if you want to collaborate, chat, or simply connect! Simply click on the button links provided!:</p>
+            <ul>
+                <a href="https://www.facebook.com/itszack.capili" target="_blank" style="color: #e91e63;">
+                    <i class="fa fa-facebook"></i>
+                <a href="https://www.instagram.com/zayiee_07/" target="_blank" style="color: #e91e63;">
+                    <i class="fa fa-instagram"></i>
+                <a href="zackcapili@gmail.com" target="_blank" style="color: #e91e63;">
+                    <i class="fa fa-google"></i>
+                <a href="https://github.com/zackcapili" target="_blank" style="color: #e91e63;">
+                    <i class="fa fa-github"></i>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
